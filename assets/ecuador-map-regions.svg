@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <style>
+    path { fill: #1a1a2e; stroke: #333; stroke-width: 0.5; transition: fill 0.3s; }
+    path:hover { fill: #2a2a4e; }
+    path.active { fill: #B8860B; }
+    text { fill: #fff; font-size: 8px; font-family: sans-serif; text-anchor: middle; font-weight: bold; }
+  </style>
+  <!-- Simplified Ecuador provinces -->
+  <path d="M180,80 L220,75 L240,90 L250,120 L230,140 L200,130 L175,110 Z" data-state="ES" id="esmeraldas"/>
+  <path d="M220,75 L270,70 L280,95 L260,115 L240,90 Z" data-state="CR" id="carchi"/>
+  <path d="M270,70 L310,80 L300,110 L280,115 L280,95 Z" data-state="SU" id="sucumbios"/>
+  <path d="M240,90 L280,95 L280,115 L260,140 L250,120 Z" data-state="IM" id="imbabura"/>
+  <path class="active" d="M200,130 L260,140 L270,170 L250,190 L210,180 L190,155 Z" data-state="PI" id="pichincha"/>
+  <path d="M260,140 L300,110 L320,140 L310,170 L270,170 Z" data-state="NA" id="napo"/>
+  <path d="M175,110 L200,130 L190,155 L160,160 L150,135 Z" data-state="SD" id="santo-domingo"/>
+  <path d="M150,135 L160,160 L155,190 L130,195 L120,170 Z" data-state="MA" id="manabi"/>
+  <path d="M190,155 L210,180 L200,210 L170,220 L155,190 L160,160 Z" data-state="CO" id="cotopaxi"/>
+  <path d="M210,180 L250,190 L240,220 L200,210 Z" data-state="TU" id="tungurahua"/>
+  <path d="M250,190 L270,170 L310,170 L300,200 L270,220 L240,220 Z" data-state="PA" id="pastaza"/>
+  <path d="M155,190 L170,220 L160,250 L130,250 L120,220 L130,195 Z" data-state="BO" id="bolivar-prov"/>
+  <path d="M170,220 L200,210 L240,220 L230,260 L190,270 L160,250 Z" data-state="CH" id="chimborazo"/>
+  <path d="M120,220 L130,250 L160,250 L150,280 L120,290 L100,260 Z" data-state="GU" id="guayas"/>
+  <path d="M100,260 L120,290 L110,320 L80,310 L75,280 Z" data-state="SE" id="santa-elena"/>
+  <path d="M160,250 L190,270 L180,300 L150,310 L120,290 L150,280 Z" data-state="CA" id="canar"/>
+  <path d="M190,270 L230,260 L240,290 L220,310 L180,300 Z" data-state="AZ" id="azuay"/>
+  <path d="M230,260 L270,220 L300,240 L280,280 L240,290 Z" data-state="MO" id="morona-santiago"/>
+  <path d="M120,290 L150,310 L140,340 L110,350 L100,330 L110,320 Z" data-state="OR" id="el-oro"/>
+  <path d="M150,310 L180,300 L220,310 L210,340 L170,350 L140,340 Z" data-state="LO" id="loja"/>
+  <path d="M220,310 L240,290 L280,280 L270,320 L240,340 L210,340 Z" data-state="ZC" id="zamora-chinchipe"/>
+  <path d="M130,195 L120,170 L100,180 L90,210 L100,230 L120,220 Z" data-state="LR" id="los-rios"/>
+  <!-- Galapagos (small, offset) -->
+  <path d="M30,150 L60,145 L65,165 L40,170 Z" data-state="GA" id="galapagos"/>
+  <!-- Labels -->
+  <text x="225" y="165">PI</text>
+  <text x="120" y="270">GU</text>
+  <text x="205" y="285">AZ</text>
+  <text x="155" y="325">LO</text>
+  <text x="45" y="160">GA</text>
+</svg>
